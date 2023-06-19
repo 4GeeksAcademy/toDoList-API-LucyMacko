@@ -39,8 +39,7 @@ const Home = () => {
 		})
 		.catch((error) =>{			  
 			console.log(error);
-		});	
-		
+		});			
 	}
 
 	const updateTasks = (newToDo) =>{
@@ -57,8 +56,7 @@ const Home = () => {
 			console.log(data);
 			getTasks();
 		})
-		.catch((error) =>{
-			  // Handle error
+		.catch((error) =>{			  
 			console.log(error);
 		})
 	}
@@ -164,9 +162,8 @@ const Home = () => {
 						deleteUser(user)
 					}
 					> Delete the user
-			</button>
-			</div>
-			
+				</button>
+			</div>			
 			<div className="container-fluid" id="byebye">
 				<p>Made with love and lots of patience 😅</p>
 			</div>							
